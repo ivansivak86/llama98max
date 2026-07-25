@@ -205,34 +205,6 @@ It is intentionally not redistributed as part of this project's MIT-licensed art
 
 ## Repository contents
 
-The initial public release intentionally keeps only the reproducible v1 path:
-
-```text
-README.md
-LICENSE
-requirements.txt
-
-generate_teapot_v1.py
-validate_teapot_v1.py
-prepare_sft_v1.py
-train_sft_v1.py
-make_win98_tests_v1.py
-mxs98_domain.py
-
-data/
-  tasks.teapot-v1.jsonl
-  paraphrases.teapot-v1.jsonl
-
-docs/images/
-  llama98max-teapot-demo.png
-
-provenance/
-  llama2c-commit.txt
-
-vendor/llama2c/
-  pinned Git submodule
-```
-
 Downloaded checkpoints, tokenized data, training artifacts, virtual environments and exported model binaries are generated locally and excluded from normal Git history.
 
 ## Thanks
