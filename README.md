@@ -2,6 +2,7 @@
 
 A tiny Llama-2-style model that generates a deliberately narrow subset of legacy MAXScript — and runs on Windows 98, on an emulated 350 MHz Pentium II with 128 MB of RAM.
 
+(Instruction: _"Place a radius 73 teapot named IvoryPot731 at [-91, 44, 12]"_)
 ![TeapotLM-15M generating MAXScript on Windows 98 and creating a teapot in 3D Studio MAX R2.5](docs/images/llama98max-teapot-demo.png)
 
 *TeapotLM-15M running through `llama98.c`, with its generated script executed in 3D Studio MAX R2.5. The screenshot is included for historical and educational commentary.*
